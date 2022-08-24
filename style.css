@@ -1,0 +1,46 @@
+.reveal p {
+  text-align: left;
+}
+
+.reveal ul {
+  display: block;
+}
+
+.reveal ol {
+  display: block;
+}
+
+/* remove the ugly black border around images */
+.reveal section img {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+/*
+ * inline code style.
+ * Select any code tag that is not inside a pre tag
+ * */
+:not(pre) > code {
+  background: #333;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 32px;
+  padding: .025em .25em;
+}
+
+/* more horizontal padding on code snippets */
+pre > code.hljs {
+  padding: 5px 10px;
+}
+
+.reveal table {
+  font-size: xx-large;
+  color: inherit;
+}
+
+
+.reveal .center-img {
+    display: block;
+    margin: auto;
+}
