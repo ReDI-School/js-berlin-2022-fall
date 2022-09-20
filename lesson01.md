@@ -275,11 +275,11 @@ There are some special characters in strings, for example:
 ```js
 "Hello"                        // CORRECT
 'World'                        // CORRECT
-"He said "hello" to me";       // WRONG - unescaped quotes
+"He said "hello" to me"        // WRONG - unescaped quotes
 'Let's go!'                    // WRONG - unescaped '
 ""                             // CORRECT
-'This is a\nnew line';         // CORRECT
-'This is a backslash: \';      // WRONG - escaped '
+'This is a\nnew line'          // CORRECT
+'This is a backslash: \'       // WRONG - escaped '
 ```
 
 ---
