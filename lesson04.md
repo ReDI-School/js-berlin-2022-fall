@@ -272,6 +272,6 @@ In the ice cream exercise we just need to choose one flavor, the first one that 
 
 You're a developer in a bookstore. Can you finish all the tasks in this JavaScript file?
 
-[main.js](2022-03-24-bookstore/main.js)
+[main.js](2022-09-29-bookstore/main.js)
 
-Open up the `2022-03-24-bookstore/index.html` file in your browser, and your results will be printed in the console.
+Open up the `2022-09-29-bookstore/index.html` file in your browser, and your results will be printed in the console.
