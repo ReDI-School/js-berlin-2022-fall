@@ -274,9 +274,9 @@ console.log('I go last');
 
 ## Function parameters and arguments
 
-Let's say we want a few variations of the function `sayHello`. We might want another function that says "hi", another one that says "hey" and a last one that says "hallo".
+Let's say we want a few variations of the function `sayHi`. We might want another function that says "Hi Owen", another one that says "Hi Mellina" and a last one that says "Hi Harald".
 
-How can we do it?
+How can we do it without repeating ourselves?
 
 ---
 
@@ -479,7 +479,7 @@ Write a function that takes name of a person, their age, and the language they s
 
 Example:
 
-John, 18, English &#8594; **"Hello! my name is Owen, I am 30 years old and I speak English."**
+Owen, 30, English &#8594; **"Hello! my name is Owen, I am 30 years old and I speak English."**
 
 ---
 
