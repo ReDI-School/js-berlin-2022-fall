@@ -8,7 +8,7 @@ Lesson 6, Tuesday, 2022-10-11
 
 ### Task
 
-Write a function that takes height in cm and weight in kg and calculate its BMI.
+Write a function that takes height in m and weight in kg and calculate its BMI.
 
 BMI is calculated by weight / (height * height). Depending on its result, show a message:
 
