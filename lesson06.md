@@ -12,11 +12,9 @@ Write a function that takes height in cm and weight in kg and calculate its BMI.
 
 BMI is calculated by weight / (height * height). Depending on its result, show a message:
 
-> If lower than 18.5: "Thinness"
->
-> If between 18.5 and 24.9:	"Normal"
->
-> If greater than or equal to 25: "Overweight"
+- If lower than 18.5: "Thinness"
+- If between 18.5 and 24.9:	"Normal"
+- If greater than or equal to 25: "Overweight"
 
 ---
 
@@ -35,6 +33,8 @@ For example, if it is 32 Fahrenheit, then it is 0 Celsius.
 Mary is a teacher that needs to calculate the final grade of its students. She would like to create a function to optimize that process.
 
 Write a function `calculateFinalGrade()`, that takes 3 numbers (grades from 0 to 10). The final grade is calculated by adding the first grade with the second grade multiplied by 2 and the third grade multiplied by 3. The result should be divided by 6. 
+
+---
 
 There are some example output:
 
@@ -60,11 +60,15 @@ calculateTicketPrice(2, true) // total price: 16
 calculateTicketPrice(1, false) // total price: 10
 ```
 
-BONUS: add an aditioal parameter of number of popcorns. Each popcorn costs 5 euros and are not inclucded in the discount calculation.
+---
+
+BONUS: add an additional parameter of number of popcorns. Each popcorn costs 5 euros and are not inclucded in the discount calculation.
 
 ```js
 calculateTicketPrice(2, true, 1) // total price: 21
 ```
+
+---
 
 ### Task
 
