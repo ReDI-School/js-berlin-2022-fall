@@ -333,3 +333,142 @@ Example output:
 whoIsOlder(me, friend);
 // "Harald is older"
 ```
+
+---
+
+### Object Properties
+
+So objects consist of key-value pairs (also called properties).
+
+Keys point to values.
+
+```js
+let me = {
+  firstName: 'Owen', 
+  age: 30,
+  isProgrammer: true
+};
+```
+
+So far, we've used strings, numbers, and booleans as possible values. What else could we use?
+
+---
+
+```js
+let me = {
+    firstName: "Owen",
+    address: {
+        street: "Invalidenstraße",
+        city: "Berlin"
+    }
+};
+```
+
+How many properties does the object above have? How can you access the `city` in the `me` variable above?
+
+```js
+let myCity = me.address.city;
+```
+<!-- .element: class="fragment" -->
+
+---
+
+```js
+let me = {
+    name: "Harald",
+    greeting: function() {
+        if (dayOfWeek === "Monday") {
+            return "Get out of my face";
+        } else {
+            return "Hi, how are you?";
+        }
+    }
+};
+```
+
+How would you call the greeting function?
+
+```js
+let greeting = me.greeting();
+```
+<!-- .element: class="fragment" -->
+
+---
+
+### Methods
+
+A function inside an object is also called **method**:
+
+```js
+// I am a function!
+function sayHi() {
+  return "Hi!";
+}
+
+let me = {
+    // I'm a method!
+    sayHi: function() {
+      return "Hi!";
+    }
+};
+```
+
+---
+
+### What is console.log?
+
+You've been using objects and methods this whole time!
+
+`console` is a "global" object, and `log` is a method belonging to `console`.
+
+
+---
+
+### Practice
+
+Using your "me" object, create a method to introduce yourself (using console.log). Create a object within that represents your address.
+
+```js
+me.introduce();
+// "Hi, my name is Owen"
+console.log(me.address.city); // "Berlin"
+console.log(me.address.country); // "Germany"
+```
+
+---
+
+### Variable lifetime
+
+```js
+console.log(x); // 1
+function myFunction() {
+    console.log(x); // 2
+    let x = 42;
+    console.log(x); // 3
+}
+console.log(x); // 4
+```
+
+Which of the `console.log` above are valid?
+
+Only 3. 1, 2, and 4 throw errors.
+<!-- .element: class="fragment" -->
+
+---
+
+### Variable lifetime
+
+When you open a scope with `{`, e.g. for `if` statements or `function`, the variables you define inside the curly braces only exist within that block.
+
+Variables you define outside any curly braces exist during the entire lifetime of your html page:
+
+```js
+// I exist as long as the html page exists!
+let clickCount = 0;
+
+function onButtonClick() {
+    clickCount += 1;
+}
+```
+
+---
