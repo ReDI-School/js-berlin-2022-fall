@@ -205,7 +205,7 @@ Every product has a different price. Update the total price in the `div` element
 
 ### Task 5 (Bonus)
 
-There's a special sale - if the user buys products for more than 20 EUR, they get 10% rebate.
+There's a special sale - if the user buys products for more than 20 EUR, they get 10% discount.
 
 ---
 
