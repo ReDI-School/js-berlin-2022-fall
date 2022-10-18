@@ -470,5 +470,3 @@ function onButtonClick() {
     clickCount += 1;
 }
 ```
-
----
