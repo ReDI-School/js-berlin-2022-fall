@@ -175,7 +175,7 @@ async function fetchMyApi() {
 fetchMyApi();
 ```
 
-------
+---
 
 ### Task 1
 
