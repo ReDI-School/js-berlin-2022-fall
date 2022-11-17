@@ -147,6 +147,8 @@ async function fetchMyApi() {
 * Promises require a `then` method to be called to get the result. This leads to long lines with so called "Promise Chains".
 * `fetch` with `await/async` "hides" the complexity of `Promise`.
 
+<!-- .slide: style="font-size:80%" -->
+
 ---
 
 ### async/await
